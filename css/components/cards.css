@@ -1,0 +1,28 @@
+.cards{
+  display: flex;
+  justify-content: space-around;
+  width: 855px;
+  margin: auto;
+}
+.cards img{
+  width:  160px;
+  height: 160px;
+  object-fit: cover;
+}
+.card{
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  width: 160px;
+}
+
+.card p {
+  color: lightslategray;
+}
+
+.card h3 {
+  text-align: center;
+}
